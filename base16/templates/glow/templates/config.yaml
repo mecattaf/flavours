@@ -1,0 +1,7 @@
+default:
+    extension: .json
+    output: colors
+
+email:
+    extension: .json
+    output: email

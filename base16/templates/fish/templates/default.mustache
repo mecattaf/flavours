@@ -1,0 +1,45 @@
+# {{scheme-name}} scheme by {{scheme-author}}
+
+# Color Palette
+set -l foreground {{base05-hex}} 
+set -l selection {{base07-hex}}
+set -l comment {{base07-hex}} 
+set -l red {{base08-hex}}
+set -l orange {{base09-hex}} 
+set -l yellow {{base0A-hex}}
+set -l green {{base0B-hex}}
+set -l purple {{base0E-hex}}
+set -l cyan {{base0C-hex}}
+set -l pink {{base0E-hex}}
+set -l secondary {{base01-hex}} 
+set -l bblue {{base0D-hex}}
+
+# Syntax Highlighting Colors
+set -g fish_color_normal $foreground
+set -g fish_color_command $cyan
+set -g fish_color_keyword $pink
+set -g fish_color_quote $yellow
+set -g fish_color_redirection $foreground
+set -g fish_color_end $orange
+set -g fish_color_error $red
+set -g fish_color_param $purple
+set -g fish_color_comment $comment
+set -g fish_color_selection --background=$selection
+set -g fish_color_search_match --background=$selection
+set -g fish_color_operator $green
+set -g fish_color_escape $pink
+set -g fish_color_autosuggestion $comment
+set -g fish_color_host $bblue
+set -g fish_color_match --background=$bblue
+set -g fish_color_user $green
+set -g fish_color_status $red
+set -g fish_color_valid_path --underline
+set -g fish_color_history_current --bold
+
+
+# Completion Pager Colors
+set -g fish_pager_color_progress $comment
+set -g fish_pager_color_prefix $cyan
+set -g fish_pager_color_completion $foreground
+set -g fish_pager_color_description $comment
+set -g fish_pager_color_secondary $secondary 

@@ -1,0 +1,3 @@
+default:
+  path: ~/.config/mako/config
+  mode: replace
